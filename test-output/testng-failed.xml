@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RunAllTests(failed)">
+    <classes>
+      <class name="testCases.TC_perryapis">
+        <methods>
+          <include name="test_getMessage" invocation-numbers="2"/>
+          <include name="test_sendMessages" invocation-numbers="6 7 8 9 10 11"/>
+          <include name="test_listMessages" invocation-numbers="0 1 2 3 4 5"/>
+        </methods>
+      </class> <!-- testCases.TC_perryapis -->
+    </classes>
+  </test> <!-- RunAllTests(failed) -->
+</suite> <!-- Failed suite [TestSuite1] -->
